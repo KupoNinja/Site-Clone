@@ -1,0 +1,83 @@
+body {
+  min-height: 100vh;
+  background: rgb(233, 227, 227);
+}
+
+header {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    45deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 112, 1) 50%
+  );
+}
+
+main {
+  /* background: rgb(179, 201, 200);
+  background: linear-gradient(
+    0deg,
+    rgba(179, 128, 65, 1) 100%,
+    rgba(179, 201, 200, 1) 0%
+  ); */
+  flex-grow: 1;
+}
+/* 
+.navbar-toggler-icon {
+  border: 2px solid black;
+} */
+
+.custom-btn {
+  background: rgb(2, 0, 36);
+  border: 1px solid rgb(233, 227, 227);
+}
+
+/* #card-row {
+  background: rgb(9, 121, 112);
+  background: linear-gradient(
+    0deg,
+    rgba(9, 121, 112, 1) 28%,
+    rgba(233, 227, 227, 1) 28%
+  );
+} */
+
+#main-ending {
+  background: rgb(233, 227, 227);
+  background: linear-gradient(
+    0deg,
+    rgba(233, 227, 227, 1) 78%,
+    rgba(9, 121, 112, 1) 78%
+  );
+}
+
+a {
+  color: rgb(2, 0, 36);
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-body,
+a {
+  margin-bottom: -20px;
+}
+
+footer {
+  /* background: rgba(2, 0, 36, 1) 0%; */
+  background: rgb(2, 0, 36);
+}
+
+.footer-1 {
+  background: rgba(9, 121, 112);
+  border-bottom: 2px solid rgb(233, 227, 227);
+}
+
+hr {
+  border-top: 2px solid rgb(233, 227, 227);
+}
+
+#just-a-box {
+  background: rgb(233, 227, 227);
+  height: 20px;
+  width: 200px;
+}
